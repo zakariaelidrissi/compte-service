@@ -25,6 +25,15 @@
 ![image](https://user-images.githubusercontent.com/61559275/163741341-73d3e8c3-0ad6-4a0d-8e97-c5f933989d7e.png)
 
 
+<p>
+ Après on va créer un nouvelle classe qu'on appele CompteRestController qui utilise l'annotation @RestController.<br>
+ On implémenter dans ce classe une méthode qui récuperé tout les comptes dans la base de données.<br>
+ Et on utilise l'annotation @GetMapping(path = "/comptes") pour accéder à la base de données et retourne tout les comptes.<br>
+ Voici le résultat sous format de JSON : 
+</p>
+
+![image](https://user-images.githubusercontent.com/61559275/163743578-04082857-584c-4104-8210-4fac0902148f.png)
+
 
 
 
