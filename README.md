@@ -63,6 +63,17 @@
 
 ![image](https://user-images.githubusercontent.com/61559275/163828501-b4282a1f-e4cc-429c-a077-75a9bb934ee7.png)
 
+<p>
+ On utilise aussi SWAGGER pour fait un test 
+</p>
+
+![image](https://user-images.githubusercontent.com/61559275/163834477-fc9d4d7a-8515-4d60-a469-be1ae0f4dbad.png)
+
+<p>
+ Voici un exemple pour ajouter un compte avec SWAGGER :
+</p>
+
+![image](https://user-images.githubusercontent.com/61559275/163834576-ca42b6e4-c79b-4531-aa6b-516d4a8df19c.png)
 
 
 
