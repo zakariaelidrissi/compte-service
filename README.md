@@ -27,7 +27,7 @@
 
 <p>
  Après on va créer un nouvelle classe qu'on appele CompteRestController qui utilise l'annotation @RestController.<br>
- On implémenter dans ce classe une méthode qui récuperé tout les comptes dans la base de données.<br>
+ On implémenter dans ce classe une méthode (listComptes) qui récuperé tout les comptes dans la base de données.<br>
  Et on utilise l'annotation @GetMapping(path = "/comptes") pour accéder à la base de données et retourne tout les comptes.<br>
  Voici le résultat sous format de JSON : 
 </p>
@@ -35,7 +35,33 @@
 ![image](https://user-images.githubusercontent.com/61559275/163743578-04082857-584c-4104-8210-4fac0902148f.png)
 
 
+<p>
+ On ajoute autres méthodes dans la classe CompteRestController :
+ <ul>
+  <li>save() qui utilise l'annotation @PostMapping</li>
+  <li>update() qui utilise l'annotation @PutMapping</li>
+  <li>delete() qui utilise l'annotation @DeleteMapping</li>
+ </ul>   
+</p>
+<p>
+ Pour fait un test sur la méthode save() on utilise l'application Postman<br>
+ Voici un exemple :
+</p>
 
+![image](https://user-images.githubusercontent.com/61559275/163825300-0ba1a590-5c8f-4478-bb92-20e20356aeed.png)
+
+![image](https://user-images.githubusercontent.com/61559275/163825755-a2fc592d-9c12-4bca-a54a-c3900a3f48b7.png)
+
+<p> Voici le résultat : </p>
+
+![image](https://user-images.githubusercontent.com/61559275/163825848-7e5b2f9d-a4a5-44c6-b122-ef2f6b49ac22.png)
+
+<p>
+ Après on ajoute un dépendence de springdoc dans le fichier pom.xml<br>
+ puis une importe cette dépendence dans Postman
+</p>
+
+![image](https://user-images.githubusercontent.com/61559275/163828501-b4282a1f-e4cc-429c-a077-75a9bb934ee7.png)
 
 
 
