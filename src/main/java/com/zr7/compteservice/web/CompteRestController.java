@@ -7,12 +7,19 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+/*
+ * On suprimer l'annotation @RestController dans ce classe
+ * Et on ajoute dans cette interface CompteRepository l'annotation @RepositoryRestResource
+ * pour créer un micro-service et pour accéder à la base de données
+ */
+
+//@RestController
 public class CompteRestController {
 
     private CompteRepository compteRepository;
 
     public CompteRestController(CompteRepository compteRepository){
+
         this.compteRepository = compteRepository;
     }
 
