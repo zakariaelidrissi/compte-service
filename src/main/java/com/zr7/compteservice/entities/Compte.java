@@ -11,7 +11,7 @@ import java.util.Date;
 /*
  * @Data : permet d'ajouter les getters et les setters
  * @NoArgsConstructor : permet d'ajouter un constructeur sans arguments
- * @AllArgsConstructor : permet d'ajouter un constructeur avec des argument
+ * @AllArgsConstructor : permet d'ajouter un constructeur avec des arguments
  * @Entity : permet d'utiliser l'entité jpa
  *
  */

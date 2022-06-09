@@ -28,6 +28,11 @@ public class CompteRestController {
         return compteRepository.findAll();
     }
 
+    @GetMapping(path = "/comptes/{id}")
+    public Compte getCompte(@PathVariable Long id) {
+        return compteRepository.findById(id).get();
+    }
+
     @PostMapping(path = "/comptes")
     public Compte save(@RequestBody Compte compte) {
         return compteRepository.save(compte);
