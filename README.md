@@ -32,15 +32,23 @@
  Voici le résultat sous format de JSON : 
 </p>
 
-![image](https://user-images.githubusercontent.com/61559275/163743578-04082857-584c-4104-8210-4fac0902148f.png)
+![image](https://user-images.githubusercontent.com/61559275/172948209-32684312-43da-43df-a58c-990325664db6.png)
 
+<p>
+ On ajoute un autre méthode dans la meme classe pour consulté un compte
+</p>
+
+<p> Voici un exemple : </p>
+
+![image](https://user-images.githubusercontent.com/61559275/172949029-2f9d6cb2-873b-41d7-8e38-428c2895f24c.png)
+ 
 
 <p>
  On ajoute autres méthodes dans la classe CompteRestController :
  <ul>
-  <li>save() qui utilise l'annotation @PostMapping</li>
-  <li>update() qui utilise l'annotation @PutMapping</li>
-  <li>delete() qui utilise l'annotation @DeleteMapping</li>
+  <li>save() qui utilise l'annotation @PostMapping et pour enregistré un compte</li>
+  <li>update() qui utilise l'annotation @PutMapping et pour modifier un compte</li>
+  <li>delete() qui utilise l'annotation @DeleteMapping et pour supprimer un compte</li>
  </ul>   
 </p>
 <p>
@@ -56,9 +64,17 @@
 
 ![image](https://user-images.githubusercontent.com/61559275/163825848-7e5b2f9d-a4a5-44c6-b122-ef2f6b49ac22.png)
 
-<p>
- Après on ajoute un dépendence de springdoc dans le fichier pom.xml<br>
- puis une importe cette dépendence dans Postman
+<p> 
+ Pour créer la documentation se l'api on utilise SWAGGER
+ Alors on ajoute la dépendence de springdoc dans le fichier pom.xml<br>
+</p>
+
+<p> Voici un exemple </p>
+
+![image](https://user-images.githubusercontent.com/61559275/172950866-b227a29f-ddc0-42b3-87ec-105a5c8a7478.png)
+
+<p> 
+ puis une importe cette documentation dans Postman
 </p>
 
 ![image](https://user-images.githubusercontent.com/61559275/163828501-b4282a1f-e4cc-429c-a077-75a9bb934ee7.png)
@@ -75,20 +91,29 @@
 
 ![image](https://user-images.githubusercontent.com/61559275/163834576-ca42b6e4-c79b-4531-aa6b-516d4a8df19c.png)
 
+<p>
+ On peut ajouter des projections pour consulter les comptes avec des données précisés
+</p>
 
+<p> Voici un exemple </p>
 
+![image](https://user-images.githubusercontent.com/61559275/172953096-ba11fee0-01e3-4512-953d-482b4f06cb64.png)
 
+<p>
+ Maintenant on va créer une interface qui contient une méthode virement pour faire des virements entre les comptes.<br>
+ Puis on va créer une classe qui implémenté cette interface.<br>
+</p>
 
+<p> Voici un exemple de virement avec swagger </p>
+<p> Dans cette exemple on fait un virement du compte numero 1 vers le compte numero 2 </p>
 
+![image](https://user-images.githubusercontent.com/61559275/172955597-487326cb-bd49-452b-a55b-176b256afc79.png)
 
+![image](https://user-images.githubusercontent.com/61559275/172955946-907a5971-c33a-469a-bf14-23512df0708b.png)
 
+<p> Le résultat après le virement </p>
 
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/61559275/172956033-44dfdd93-cbae-402e-b6a8-ac1fbd4c9206.png)
 
 
 
